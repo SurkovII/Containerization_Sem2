@@ -26,7 +26,7 @@ sudo apt update
 
 Проверяем настройку lxc
 
-![Pic1](Pictures/Pic1.PNG)
+![Pic1](Pictures/Pic1(1).PNG)
 
 Создаем контейнер
 
@@ -36,9 +36,15 @@ lxc-create -n test123 -t ubuntu
 
 lxc-start -n test123
 
+Входим в контейнер
+
+lxc-attach -n teat123
+
 Проверяем выделенную память
 
 free -m
+
+
 
 Выходим из контейнера
 
@@ -61,6 +67,14 @@ lxc.uts.name = test1234
 Сохраняем, выходим, запускаем контейнер
 
 lxc-start -n test123
+
+Входим в контейнер
+
+lxc-attach -n teat123
+
+Проверяем выделенную память
+
+free -m
 
 
 
