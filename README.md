@@ -38,13 +38,13 @@ lxc-start -n test123
 
 Входим в контейнер
 
-lxc-attach -n teat123
+lxc-attach -n test123
 
 Проверяем выделенную память
 
 free -m
 
-
+![Pic2](Pictures/Pic2.PNG)
 
 Выходим из контейнера
 
@@ -76,6 +76,5 @@ lxc-attach -n teat123
 
 free -m
 
-
-
+![Pic3](Pictures/Pic3.PNG)
 
